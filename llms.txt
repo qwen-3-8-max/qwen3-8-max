@@ -1,0 +1,108 @@
+# Qwen3.8 Max — Autonomous AI Agent (Desktop)
+
+> Native Windows and Mac desktop app that turns Alibaba's Qwen3.8 Max — the company's largest and most capable AI model (2.4 trillion parameters, 1M-token context, multimodal), released August 3, 2026 — into a personal autonomous agent for a broad, general audience (not just developers). Users delegate real multi-step jobs (research and reports, inbox triage and email drafting, spreadsheets and decks, planning, file organization, writing, and optionally coding) and the agent works autonomously, self-checking, for as long as the task takes; Alibaba states the model sustains autonomous work for more than 10 days on a single objective. Everyday tasks run free using the local PC's own resources for orchestration and light work; heavy or long-running jobs connect an API for cloud compute, routed through the app at roughly 30% lower cost than going direct. One-click signed installer, no terminal. Positioned as a broader-audience autonomous assistant versus chatbots (ChatGPT/Gemini) that answer and stop, emphasizing Alibaba's scale and frontier resources as a trust signal.
+
+## Model: Qwen3.8 Max
+
+- **Developer:** Alibaba Cloud (Qwen team)
+- **Released:** August 3, 2026 (general availability; previewed July 19, 2026 at WAIC Shanghai)
+- **Scale:** 2.4 trillion total parameters, sparse Mixture-of-Experts, ~95B active per request
+- **Context:** 1,000,000 tokens (~750,000 words per query)
+- **Multimodal:** text, images, video, documents in; text out
+- **Autonomy:** Alibaba states 10+ days of continuous autonomous software development / task execution
+- **Strengths:** coding, full-stack development, data analysis, office workflows, long-horizon agentic tasks
+- **API:** OpenAI-compatible and DashScope-compatible; available via Alibaba Cloud Model Studio, QwenWork
+- **Open weights:** planned within a week of GA; smaller Qwen3.8-27B checkpoint also going open-weights
+- **Pricing (reference):** ~$2 input / $6 output per million tokens; ~30% lower through this app
+
+## Broad-Audience Use Cases
+
+- **Research:** compare many options, cross-check sources, produce a sourced brief
+- **Email/admin:** triage inbox, draft replies in the user's voice, extract action items, schedule
+- **Documents/data:** messy files to clean spreadsheets with formulas, reports, slide decks
+- **Planning:** trips, projects, moves — broken into steps and executed
+- **File management:** rename/sort thousands of files, dedupe, organize photos
+- **Writing/content:** long articles, posts, scripts, emails, consistent across a series
+- **Coding (one use among many):** autonomous multi-day software projects for those who need it
+
+## Local + Cloud Model
+
+- Everyday tasks run free on the local PC's resources (orchestration, file handling, light work)
+- Long/heavy jobs (multi-day runs, large datasets) connect a model API for cloud compute
+- API routed through the app at ~30% discount vs direct (arranged with provider)
+- User decides per task; no forced subscription, no surprise billing
+- Honest note: sustained multi-day autonomy consumes more compute/tokens; those runs use the connected API, not the free local tier
+
+## Key Differentiators
+
+1. Autonomous multi-day operation (10+ days) vs answer-and-stop chatbots
+2. Broad audience — research, office, personal, planning, not just coding
+3. Free everyday use on local PC resources
+4. ~30% cheaper API when scaling to heavy jobs
+5. 1M-token memory holds entire long tasks
+6. Native multimodal (text, image, video, documents)
+7. Backed by Alibaba's frontier-scale 2.4T flagship — trust signal for mainstream users
+
+## Pricing Model
+
+- App: Free
+- Everyday tasks: free on local PC resources
+- Heavy/long tasks: BYO API key at ~30% discount through the app
+- No subscription, no telemetry
+
+## Platform and Distribution
+
+- **Windows:** 10 and 11, 64-bit, signed .exe installer
+- **macOS:** 12+, Apple Developer ID signed and notarized, native Apple Silicon + Intel
+- **Model execution:** local PC for orchestration/light work; cloud API for heavy/long jobs
+- **Distribution:** GitHub releases, SHA-256 checksums published
+
+## Privacy and Security Model
+
+- Everyday orchestration and light tasks handled locally
+- Cloud API used only for heavy/long tasks the user opts into
+- Signed installers with published SHA-256 checksums
+- BYO API key stored locally in OS keychain
+- Open source client, auditable on GitHub
+
+## Target Audience
+
+- General users, not just developers: researchers, students, office workers, freelancers, small-business owners, writers
+- Anyone with time-consuming multi-step tasks (research, admin, data, planning)
+- Users wanting an autonomous agent rather than a babysat chatbot
+- Mainstream users drawn by Alibaba's brand scale and a free local tier
+- Cost-conscious users wanting discounted API for occasional heavy jobs
+
+## Comparable Tools
+
+- **ChatGPT (GPT-5.5) / Gemini** — answer-and-stop assistants, limited autonomy, no free multi-day agent
+- **Kimi K3 / HY3 / other Chinese flagships** — competing large models, different tooling
+- **Manus / autonomous agent startups** — agentic products, typically paid/cloud-only
+- **Official Qwen surfaces (Qwen Chat, QwenWork, Model Studio)** — Alibaba's own interfaces, not a free-local-tier desktop agent
+
+This app combines Qwen3.8 Max's frontier model, broad-audience autonomous agent framing, a free local tier, discounted API for scale, and one-click native install — a packaging the official surfaces don't offer.
+
+## Repository
+
+- **Source:** https://github.com/qwen-3-8-max/qwen3-8-max
+- **Releases:** https://github.com/qwen-3-8-max/qwen3-8-max/releases
+- **Issues:** https://github.com/qwen-3-8-max/qwen3-8-max/issues
+- **License:** MIT
+
+## Common Questions
+
+**Is it free?** Everyday use runs free on your PC's resources. Long/heavy jobs use a connected API at ~30% discount. No subscription.
+
+**Who's it for?** Everyone — researchers, office workers, students, freelancers, writers, not just coders.
+
+**Autonomy?** Alibaba states 10+ days continuous autonomous work on one objective.
+
+**Is it safe?** Signed, notarized, checksummed, source on GitHub.
+
+**What is Qwen3.8 Max?** Alibaba's largest model — 2.4T params, 1M context, multimodal, released August 2026, among the world's strongest.
+
+**Powerful PC needed?** No — local handles orchestration, cloud handles heavy reasoning when needed.
+
+**Will long runs cost a lot?** Only genuinely huge jobs, only via connected API at the discounted rate. Everyday tasks finish fast and free.
+
+**Mac?** Yes, signed notarized universal binary.
